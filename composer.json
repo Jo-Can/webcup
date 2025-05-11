@@ -1,0 +1,10 @@
+{
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.7",
+        "slim/twig-view": "^3.4"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.15"
+    }
+}

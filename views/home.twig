@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTMX + Slim</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+</head>
+<body>
+    <h1> {{ Twig }} </h1>
+
+    <button hx-get="/message" hx-target="#message" hx-swap="innerHTML">
+        Load Message
+    </button>
+
+    <div id="message"></div>
+</body>
+</html>
